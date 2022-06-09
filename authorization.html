@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./mobileNav.js" defer></script>
+    <script src="auth.js" defer></script>
+    <script src="/language.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "icon" href ="assets/watch.png" type = "image/x-icon">
+    <title>Timeless</title>
+  </head>
+  <body>
+    <header>
+      <section id="navigation-mobile">
+        <div class="mobile-nav">
+          <button id="closeNav">X</button>
+          <nav class="mobile-nav-links">
+            <ul>
+              <li><a href="index.html" id="home1">Home</a></li>
+              <li><a href="product.html" id="product1">Product</a></li>
+              <li><a href="contact.html" id="contact1">Contact</a></li>
+              <li><a href="authorization.html" class="active-page" id="authorization1">Authorization</a></li>
+              <li><a href="registration.html" id="registration1">Registration</a></li>
+              <li><a href="partners.html" id="partners1">Partners</a></li>
+              <li><a href="headquarters.html" id="headquarters1">Headquarters</a></li>
+              <div class="language" id="languageButtons">
+                <button id="english">English</button>
+                <p>|</p>
+                <button id="georgian">Georgian</button>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <div class="announcement">
+        <p id="announcement">FREE Worldwide Shipping on all Luxury Watches</p>
+        <div class="language">
+          <button id="english2">English</button>
+          <p>|</p>
+          <button id="georgian2">Georgian</button>
+        </div>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <p>/</p>
+          <li><a href="index.html" id="home2">Home</a></li>
+          <p>/</p>
+          <li><a href="product.html" id="product2">Product</a></li>
+          <p>/</p>
+          <li><a href="contact.html" id="contact2">Contact</a></li>
+          <p>/</p>
+          <li><a href="authorization.html" class="active-page" id="authorization2">Authorization</a></li>
+          <p>/</p>
+          <li><a href="registration.html" id="registration2">Registration</a></li>
+          <p>/</p>
+          <li><a href="partners.html" id="partners2">Partners</a></li>
+          <p>/</p>
+          <li><a href="headquarters.html" id="headquarters2">Headquarters</a></li>
+          <p>/</p>
+        </ul>
+        <button class="burger-menu" id="showNavigation">
+          <img src="assets/menu-button-of-three-horizontal-lines.png" alt="#" />
+        </button>
+        <div class="search-div">
+          <div class="search-img"><img src="assets/search.png" alt="" /></div>
+          <input type="text" class="search" placeholder="Search"  id="search" />
+        </div>
+      </nav>
+    </header>
+    <section class="form-body">
+      <div class="slider-heading">
+        <img class="timeless_logo" src="./assets/timeless_logo.png" alt="" />
+      </div>
+      <form class="auth" id="auth">
+        <h3 id="FormAuthorization">Authorization</h1>
+        <div class="inputs">
+          <input type="text" placeholder="Email or Phone Number" id="AuthName">
+          <input type="text" placeholder="Password" id="authPassword">
+          <button id="login">Log in</button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <p>
+        Copyright © 2022 Timeless Ltd.
+        Web Design by Nikoloza Chareqishvili
+      </p>
+    </footer>
+  </body>
+</html>

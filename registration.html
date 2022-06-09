@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./mobileNav.js" defer></script>
+    <script src="register.js" defer></script>
+    <script src="./language.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "icon" href ="assets/watch.png" type = "image/x-icon">
+    <title>Timeless</title>
+  </head>
+  <body>
+    <header>
+      <section id="navigation-mobile">
+        <div class="mobile-nav">
+          <button id="closeNav">X</button>
+          <nav class="mobile-nav-links">
+            <ul>
+              <li><a href="index.html" id="home1">Home</a></li>
+              <li><a href="product.html" id="product1">Product</a></li>
+              <li><a href="contact.html" id="contact1">Contact</a></li>
+              <li><a href="authorization.html" id="authorization1">Authorization</a></li>
+              <li><a href="registration.html" class="active-page" id="registration1">Registration</a></li>
+              <li><a href="partners.html" id="partners1">Partners</a></li>
+              <li><a href="headquarters.html" id="headquarters1">Headquarters</a></li>
+              <div class="language" id="languageButtons">
+                <button id="english">English</button>
+                <p>|</p>
+                <button id="georgian">Georgian</button>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <div class="announcement">
+        <p id="announcement">FREE Worldwide Shipping on all Luxury Watches</p>
+        <div class="language">
+          <button id="english2">English</button>
+          <p>|</p>
+          <button id="georgian2">Georgian</button>
+        </div>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <p>/</p>
+          <li><a href="index.html" id="home2">Home</a></li>
+          <p>/</p>
+          <li><a href="product.html" id="product2">Product</a></li>
+          <p>/</p>
+          <li><a href="contact.html" id="contact2">Contact</a></li>
+          <p>/</p>
+          <li><a href="authorization.html" id="authorization2">Authorization</a></li>
+          <p>/</p>
+          <li><a href="registration.html" class="active-page" id="registration2">Registration</a></li>
+          <p>/</p>
+          <li><a href="partners.html" id="partners2">Partners</a></li>
+          <p>/</p>
+          <li><a href="headquarters.html" id="headquarters2">Headquarters</a></li>
+          <p>/</p>
+        </ul>
+        <button class="burger-menu" id="showNavigation">
+          <img src="assets/menu-button-of-three-horizontal-lines.png" alt="#" />
+        </button>
+        <div class="search-div">
+          <div class="search-img"><img src="assets/search.png" alt="" /></div>
+          <input type="text" class="search" placeholder="Search" id="search" />
+        </div>
+      </nav>
+    </header>
+    <section class="form-body">
+      <div class="slider-heading">
+        <img class="timeless_logo" src="./assets/timeless_logo.png" alt="" />
+      </div>
+      <form class="auth" id="register">
+        <h3 id="FormRegistration">Registration</h1>
+        <div class="inputs">
+          <input type="text" placeholder="Email" id="email">
+          <div style="width: 100%; position: relative;">
+            <input type="password" placeholder="Password" id="password">
+            <p id="passwordStrenght"></p>
+          </div>
+          <input type="password" placeholder="Confirm password" id="confirmPassword">
+          <input type="date" placeholder="Date" id="date">
+          <input type="text" placeholder="Country" id="country">
+          <input type="text" placeholder="City" id="city">
+          <input type="tel" placeholder="Phone number" id="phone">
+          <div id="error">
+            <p id="errorText"></p>
+            <div id="errorImage">
+              <img src="./assets/errorImage.png">
+            </div>
+          </div>
+          <button id="registerButton">Register</button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <p>
+        Copyright © 2022 Timeless Ltd.
+        Web Design by Nikoloza Chareqishvili
+      </p>
+    </footer>
+  </body>
+</html>
